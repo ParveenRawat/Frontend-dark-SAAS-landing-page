@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbutton {
+    @apply text-white text-opacity-60 hover:text-opacity-100;
+  }
+  .btn-primary {
+    @apply rounded-lg bg-white px-4 py-2 font-medium text-black;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md border border-white/30;
+  }
+  .section-header {
+    @apply text-center text-5xl font-bold tracking-tighter max-w-[648px] mx-auto sm:text-6xl;
+  }
+  .section-description {
+    @apply text-center text-xl text-white/70;
+  }
+}
